@@ -1,0 +1,78 @@
+.banner {
+  height: 450px;
+  font-family: NunitoSans;
+  font-size: 18pt;
+  color: rgb(255, 255, 255);
+  background: url("../assets/bg_banner_about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner div {
+  height: 350px;
+}
+
+.banner .h1_title {
+  font-family: Montserrat;
+  font-size: 38pt;
+}
+
+.numbers {
+  height: 240px;
+  background-color: rgb(16, 201, 195);
+  color: rgb(255, 255, 255);
+}
+
+.numbers_number {
+  font-size: 18pt;
+}
+
+.numbers_describe {
+  font-size: 12pt;
+}
+
+.need_a_project {
+  height: 250px;
+}
+
+.button {
+  height: 55px;
+  margin-bottom: 50px;
+}
+
+.button_btn {
+  height: 55px;
+  width: 180px;
+  background-color: rgb(16, 201, 195);
+  color:  rgb(255, 255, 255);
+  border: 0;
+  font-size: 12pt;
+  font-family: Montserrat;
+}
+
+.about_me {
+  height: 570px;
+  background: url("../assets/bg_aboutme_about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 30pt;
+  color: rgb(23, 23, 23);
+}
+
+.content {
+  font-family: NunitoSans;
+  font-size: 16pt;
+  color: rgb(120, 120, 120);
+}
+
+.about_me div {
+  height: 570px;
+}
+
+.numbers_icon {
+  color: #ffffff;
+}
