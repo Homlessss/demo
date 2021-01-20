@@ -26,8 +26,8 @@ export default class Header extends React.Component {
        * Create heder
        */
       <div className={cls}>
-        <Navbar className="header navbar navbar-light row justify-content-around header no-gutters">
-          <NavLink to="/" className="navbar-brand m-5" >
+        <Navbar className="header navbar navbar-light row justify-content-around wrap no-gutters">
+          <NavLink to="/" className="navbar-brand" >
             <img src={logo} alt="logo" />
           </NavLink>
           <Nav className="nav mr-auto row justify-content-end no-gutters">
