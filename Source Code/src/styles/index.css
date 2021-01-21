@@ -29,7 +29,7 @@ code {
 .header {
   height: 101px;
   margin: 0px auto;
-  font-family: MyriadPro;
+  font-family: Montserrat;
   font-size: 12px;
   font-weight: bold;
 }
@@ -110,3 +110,4 @@ code {
     max-width: 1400px;
   }
 }
+

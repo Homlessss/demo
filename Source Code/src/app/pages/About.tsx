@@ -16,11 +16,11 @@ function Number(props: any) {
         aria-hidden="true"
       />
       <span className="ml-3">
-        <span className="numbers_number">
+        <span className="numbers_number" style={{fontSize: "18px"}}>
           <b>{props.number}</b>
         </span>
         <br />
-        <span className="numbers_describe">{props.describe}</span>
+        <span className="numbers_describe" style={{fontSize: "12px"}}>{props.describe}</span>
       </span>
     </div>
   );
@@ -50,7 +50,7 @@ const About: FunctionComponent<Props> = () => {
           styles.numbers + " d-flex justify-content-center align-items-center"
         }
       >
-        <div className="wrap d-flex justify-content-between ">
+        <div className="numbers-content wrap d-flex justify-content-between">
           <Number
             icon="fa-briefcase"
             number="548"
