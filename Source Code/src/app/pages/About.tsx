@@ -10,17 +10,19 @@ interface Props {
 
 function Number(props: any) {
   return (
-    <div className="d-flex">
+    <div className="d-flex col-3 pl-5">
       <i
         className={"fa " + props.icon + " fa-3x " + styles.numbers_icon}
         aria-hidden="true"
       />
       <span className="ml-3">
-        <span className="numbers_number" style={{fontSize: "18px"}}>
+        <span className="numbers_number" style={{ fontSize: "18px" }}>
           <b>{props.number}</b>
         </span>
         <br />
-        <span className="numbers_describe" style={{fontSize: "12px"}}>{props.describe}</span>
+        <span className="numbers_describe" style={{ fontSize: "12px" }}>
+          {props.describe}
+        </span>
       </span>
     </div>
   );
@@ -50,7 +52,7 @@ const About: FunctionComponent<Props> = () => {
           styles.numbers + " d-flex justify-content-center align-items-center"
         }
       >
-        <div className="numbers-content wrap d-flex justify-content-between">
+        <div className="wrap d-flex justify-content-between">
           <Number
             icon="fa-briefcase"
             number="548"
@@ -69,8 +71,8 @@ const About: FunctionComponent<Props> = () => {
         }
       >
         <div className="wrap no-gutters row justify-content-md-end align-items-center ">
-          <div className="ml-5 pl-5 col-6 col-md-5 d-flex align-items-center">
-            <p>
+          <div className="ml-5 pl-4 col-6 d-flex align-items-center ">
+            <p className="ml-5 pl-5 col-md-8">
               <h1 className="title">About me</h1>
               <span className="about-content">
                 <br />

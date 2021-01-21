@@ -26,6 +26,10 @@ code {
     monospace;
 }
 
+.wrap {
+  width: 85%;
+}
+
 .header {
   height: 101px;
   margin: 0px auto;
@@ -68,15 +72,11 @@ code {
   font-family: NunitoSans;
   font-size: 15px;
 }
-
-.wrap {
-  width: 84%;
-}
-
+/* 
 .container {
   position: relative;
   padding: 0;
-}
+} */
 
 .footer .element-position {
   padding-left: 35px;
@@ -94,20 +94,20 @@ code {
 }
 
 @media (min-width: 992px) {
-  .container {
-    max-width: 900px;
+  .wrap {
+    width: 85%;
   }
 }
 
 @media (min-width: 1200px) {
-  .container {
-    max-width: 1024px;
+  .wrap {
+    width: 85%;
   }
 }
 
 @media (min-width: 1600px) {
-  .container {
-    max-width: 1400px;
+  .wrap {
+    width: 85%;
   }
 }
 

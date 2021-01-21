@@ -30,7 +30,7 @@ export default class Footer extends React.Component {
   render() {
     return (
       <div className="footer d-flex justify-content-center ">
-        <div className="wrap footer row justify-content-around text-light align-items-center no-gutters mr-5 pr-5">
+        <div className="wrap footer row justify-content-around text-light align-items-center no-gutters mr-5">
           <div className="col-3 ml-5">
             <b className="author">Piroll Design, Inc.</b>
             <br />

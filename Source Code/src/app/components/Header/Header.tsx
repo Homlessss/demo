@@ -26,11 +26,11 @@ export default class Header extends React.Component {
        * Create heder
        */
       <div className={cls}>
-        <Navbar className="header navbar navbar-light row justify-content-around wrap no-gutters">
+        <Navbar className="p-0 header navbar navbar-light row justify-content-around wrap no-gutters">
           <NavLink to="/" className="navbar-brand" >
             <img src={logo} alt="logo" />
           </NavLink>
-          <Nav className="nav mr-auto row justify-content-end no-gutters">
+          <Nav className="nav row justify-content-end no-gutters mr-5 pr-3">
             <NavLink className="nav_link" activeClassName="active_link" exact to="/">
               HOME
             </NavLink>
