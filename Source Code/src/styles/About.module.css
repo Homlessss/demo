@@ -36,12 +36,12 @@
 }
 
 .need_a_project {
-  height: 250px;
+  height: 400px;
 }
 
 .button {
   height: 55px;
-  margin-bottom: 50px;
+  margin-top: 40px;
 }
 
 .button_btn {
@@ -63,11 +63,11 @@
 
 .title {
   font-family: Montserrat;
-  font-size: 30pt;
+  font-size: 30px;
   color: rgb(23, 23, 23);
 }
 
-.about-content {
+#about_content {
   font-family: NunitoSans;
   font-size: 16px;
   color: rgb(120, 120, 120);

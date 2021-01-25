@@ -4,10 +4,19 @@
 @font-face {
   font-family: Montserrat;
   src: url("../assets/Montserrat-Regular.ttf");
+}
+
+@font-face {
   font-family: MyriadPro;
   src: url("../assets/MyriadPro-Regular.otf");
+}
+
+@font-face {
   font-family: NunitoSans;
   src: url("../assets/NunitoSans-Regular.ttf");
+}
+
+@font-face {
   font-family: WorkSans;
   src: url("../assets/WorkSans-Regular.ttf");
 }
@@ -31,7 +40,7 @@ code {
 }
 
 .header {
-  height: 101px;
+  height: 100px;
   margin: 0px auto;
   font-family: Montserrat;
   font-size: 12px;
@@ -110,4 +119,3 @@ code {
     width: 85%;
   }
 }
-

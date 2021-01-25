@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCopyright } from "@fortawesome/free-solid-svg-icons";
 import "../../../styles/index.css";
 import { Link } from "react-router-dom";
 
@@ -34,10 +32,7 @@ export default class Footer extends React.Component {
           <div className="col-3 ml-5">
             <b className="author">Piroll Design, Inc.</b>
             <br />
-            <span className="content">
-              <FontAwesomeIcon icon={faCopyright} />
-              2017 Piroll. All rights reserved.
-            </span>
+            <span className="content">© 2017 Piroll. All rights reserved.</span>
             <br />
             <span className="content">Design by robirurk.</span>
           </div>
